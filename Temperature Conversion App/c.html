@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        OIBSIP - Temperature Converter 
+    </title>
+    <link rel="stylesheet" href="/c.css">
+</head>
+<body>
+    <!-- Creating a main division -->
+    <div class="Box">
+        
+        <h1 id="title"> Temperature Converter App </h1>
+
+        <!-- Dividing the title and content using horizontal line -->
+        <hr>
+
+        <p id="text-1">Enter the units to convert:</p>
+
+        <input type="text" id="input-value" placeholder="Example: 0">
+        <span id="input-error"> </span>
+
+        <br>
+        <br>
+
+        <input type="radio" id="celsius-input" name="unit"> Celsius
+        <input type="radio" id="fahrenheit-input" name="unit"> Fahrenheit
+        <span id="selection-error"> </span>
+
+        <br>
+        <br>
+
+        <button id="convert-btn"> Convert </button>
+
+        <p id="Answer"> Result </p>
+
+        <div class="left-img">
+            <img id = "h-image" src="/hot.png"></img>
+        </div>
+
+        <div class="right-img">
+            <img id = "image" src="/cold.png"></img>
+        </div>
+
+        <script src="/c.js"></script>
+    </div>
+    
+</body>
+</html>

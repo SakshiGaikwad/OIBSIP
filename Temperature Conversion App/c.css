@@ -1,0 +1,138 @@
+html{
+    height:100%;
+}
+
+body
+{ 
+    height:100%;
+    background: linear-gradient(to top left, #00ccff 16%, #ff9966 100%);
+}
+
+.Box
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 860px;
+    height: 390px;
+    background-color: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                 rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+                 rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#title{
+    margin-left: 225px;
+    color: rgb(70, 3, 70);
+    word-spacing: 10px;
+}
+
+#text-1{
+    font-size: 20px;
+    font-family: math;
+    margin-left: 320px;
+}
+
+#input-value{
+    margin-left: 330px;
+    height: 35px;
+    border-radius: 45px;
+    color: darkblue;
+    padding-left: 16px;
+    font-size: 14px;
+    background-color: #bdedf5;
+}
+
+#input-error{
+    font-size: 14px;
+    color: rgb(150, 6, 6);
+    font-weight: bold;
+    background-color: rgb(238, 201, 201);
+}
+
+#celsius-input{
+    margin-left: 340px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#fahrenheit-input{
+    margin-left: 12px;
+}
+
+input[type=radio] {
+    height: 1em;
+}
+
+#selection-error{
+    font-size: 14px;
+    color: rgb(150, 6, 6);
+    font-weight: bold;
+    background-color: rgb(238, 201, 201);
+}
+
+#convert-btn{
+    margin-left: 372px;
+    margin-top: 8px;
+    width: 110px;
+    height: 40px;
+    font-size: 17px;
+    background-color: unset;
+    border-radius: 7px;
+    box-shadow: rgba(78, 74, 74, 0.4) 0px 2px 4px,
+                 rgba(154, 151, 151, 0.3) 0px 7px 13px -3px,
+                  rgba(10, 8, 8, 0.2) 0px -3px 0px inset;
+}
+
+#convert-btn:hover{
+    background-color: rgb(216, 249, 97);
+}
+
+#Answer{
+    font-family: sans-serif;
+    margin-left: 390px;
+    font-size: 19px;
+    position: absolute;
+    padding: 7px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: rgb(38, 107, 4);
+    border-top: 2px solid tan;
+    border-bottom: 2px solid tan;
+    background-color: rgb(224 254 219);
+}
+
+.right-img{
+    position: absolute;
+    width: 153px;
+    height: 250px;
+    margin-top: -230px;
+    margin-left: 635px;
+    border-radius: 40%;
+    opacity: 60%;
+}
+
+#image{
+    border-radius: 50px;
+    margin-top: 32px;
+
+}
+
+#h-image{
+    position: absolute;
+    width: 153px;
+    height: 250px;
+    margin-top: -200px;
+    border-radius: 40%;
+    margin-left: 70px;
+    opacity: 60%;
+}
+
+
